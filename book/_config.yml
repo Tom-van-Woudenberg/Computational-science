@@ -14,6 +14,7 @@ only_build_toc_files: true
 html:
   comments:
     hypothesis: true
+  use_multitoc_numbering: false
 
 sphinx:
   config:

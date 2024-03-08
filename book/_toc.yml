@@ -1,11 +1,29 @@
 format: jb-book
-root: intro.md
-
-parts:
-  - caption: Contents
-    chapters:
-    - file: some_content/overview.md
-      sections:
-      - file: some_content/text_and_code.ipynb
-    - file: references.md
-    - file: credits.md
+root: intro
+options:  # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+chapters:
+- file: 01 Introduction to programming in Python 1/overview
+  sections:
+  - file: 01 Introduction to programming in Python 1/1a - Jupyter Notebooks and basic Python
+  - file: 01 Introduction to programming in Python 1/1b - Functions in Python
+  - file: 01 Introduction to programming in Python 1/1c - Python program flow control
+- file: 02 Introduction to programming in Python 2/overview
+  sections:
+  - file: 02 Introduction to programming in Python 2/2a Scientific Computing with Numpy
+  - file: 02 Introduction to programming in Python 2/2b Data visualization and curvefitting
+  - file: 02 Introduction to programming in Python 2/2c Implementing algorithms
+  - file: 02 Introduction to programming in Python 2/2d Additional Programming Concepts - Optional
+  - file: 02 Introduction to programming in Python 2/2e Good coding practices
+- file: 03 Numerical Differentiation/3 Differentiation
+- file: 04 Numerical Integration/4 Integration
+- file: 05 Root finding/5 Root finding
+- file: 06 Linear algebra/6 Linear algebra
+- file: 07 Fourier transforms 1/7 Fourier transforms 1
+- file: 08 Fourier transforms 2/8 Fourier transforms 2
+- file: 09 Random numbers/09 Random numbers
+- file: 10 Monte Carlo simulations/10 Monte Carlo simulations
+- file: 11 Ordinary Differential Equations 1/11 Ordinary Differential Equations Part 1
+- file: 12 Ordinary Differential Equations 2/12 Ordinary Differential Equations Part 2
+- file: 13 Partial Differential Equations 1/13 Partial Differential Equations 1 - Boundary Value Problems
+- file: 14 Partial Differential Equations 2/14 Initial Value Problems with PDEs
