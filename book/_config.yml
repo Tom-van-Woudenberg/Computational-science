@@ -22,7 +22,7 @@ sphinx:
       use_thebe_lite: true
       exclude_patterns: ["**/_*.yml", "**/*.md", "**/*.ipynb"]
     html_theme_options:
-      repository_url: "hello!"
+      repository_url: https://github.com/Tom-van-Woudenberg/Computational-science
       use_repository_button: true
       launch_buttons:
         thebe: true
